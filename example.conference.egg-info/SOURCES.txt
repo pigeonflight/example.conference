@@ -1,0 +1,15 @@
+README
+setup.cfg
+setup.py
+example/__init__.py
+example.conference.egg-info/PKG-INFO
+example.conference.egg-info/SOURCES.txt
+example.conference.egg-info/dependency_links.txt
+example.conference.egg-info/entry_points.txt
+example.conference.egg-info/namespace_packages.txt
+example.conference.egg-info/not-zip-safe
+example.conference.egg-info/paster_plugins.txt
+example.conference.egg-info/requires.txt
+example.conference.egg-info/top_level.txt
+example/conference/__init__.py
+example/conference/tests.py
