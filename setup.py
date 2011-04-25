@@ -25,6 +25,9 @@ setup(name='example.conference',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'Plone',
+          'plone.app.dexterity',
+          'collective.autopermission',
           # -*- Extra requirements: -*-
       ],
       entry_points="""
@@ -33,6 +36,4 @@ setup(name='example.conference',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["ZopeSkel"],
       )
